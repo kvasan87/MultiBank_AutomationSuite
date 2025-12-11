@@ -1,0 +1,28 @@
+2025-12-11 10:17:49,158 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,158 - conftest - INFO - Starting test: test_why_multilink_page_renders
+2025-12-11 10:17:49,160 - conftest - INFO - ======================================================================
+2025-12-11 10:17:49,160 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,160 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,161 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,161 - WDM - INFO - xdist worker is: gw6
+2025-12-11 10:17:49,162 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:18:01,259 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,880 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,463 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:04,464 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:08,018 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:08,031 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:08,031 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:09,981 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:13,193 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:15,880 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw6\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:44,627 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:44,632 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:19:07,452 - src.utils.logger - ERROR - Page did not fully load within 10s
+2025-12-11 10:19:08,650 - conftest - ERROR - Screenshot saved: screenshots\failure_test_why_multilink_page_renders_20251211_101908.png
+2025-12-11 10:19:08,653 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:14,552 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:14,553 - conftest - INFO - Finished test: test_why_multilink_page_renders
+2025-12-11 10:19:14,553 - conftest - INFO - ======================================================================
+

@@ -1,0 +1,23 @@
+2025-12-11 08:04:13 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:04:13 - src.utils.logger - INFO - Test Session Started: 2025-12-11 08:04:13
+2025-12-11 08:04:13 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:04:13 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 08:04:18 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 08:04:19 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 08:04:19 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 08:04:19 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 08:04:26 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 08:04:26 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 08:04:26 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 08:04:26 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 08:04:27 - src.utils.logger - INFO - [FAILED] Test: test_about_link_navigation
+2025-12-11 08:04:27 - src.utils.logger - INFO - Error: tests\test_navigation.py:74: in test_about_link_navigation
+    home_page.click_about_link("Awards")
+src\pages\home_page.py:69: in click_about_link
+    about_option = self.wait.visibility_of_element_located(HomePageLocators.NAV_AWARDS)
+E   AttributeError: 'WaitHelper' object has no attribute 'visibility_of_element_located'
+2025-12-11 08:04:27 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 08:04:29 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 08:04:29 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:04:29 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 08:04:29
+2025-12-11 08:04:29 - src.utils.logger - INFO - ================================================================================

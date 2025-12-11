@@ -1,0 +1,8 @@
+2025-12-11 10:21:54 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:58 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:58 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:22:00 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 10:22:00 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 10:22:05 - src.utils.logger - INFO - Clicked element: ('xpath', "//div[contains(text(),'Awards')]")
+2025-12-11 10:22:05 - src.utils.logger - INFO - Clicked Awards option navigation link
+2025-12-11 10:22:05 - src.utils.logger - INFO - ✓ About link navigation test passed - URL: https://multibank.io/about/awards?_gl=1*9jdg8g*_ga*NTAzMzg2MDYzLjE3NjU0Mjg3MTc.*_ga_LVYZTL386K*czE3NjU0Mjg3MTckbzEkZzAkdDE3NjU0Mjg3MTckajYwJGwwJGgw

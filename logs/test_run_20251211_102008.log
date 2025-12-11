@@ -1,0 +1,39 @@
+2025-12-11 10:20:08 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:15 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:15 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:15 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 10:20:16 - src.utils.logger - INFO - Element visibi2025-12-11 10:20:16 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:16 - src.utils.logger - INFO - Element presence verified: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 10:20:16 - src.utils.logger - INFO - App Store link exists
+2025-12-11 10:20:16 - src.utils.logger - INFO - ✓ App Store link existence2025-12-11 10:2025-12-11 10:20:30 - src.utils.logger - INFO - Navigating to URL: https://trade.m2025-12-11 10:20:37 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:37 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:37 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:37 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:2025-12-11 10:20:37 - src.utils.logger - INFO - Element presence verified: ('xp2025-12-11 10:20:51 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:59 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:59 - src.utils.logger - INFO - Home page loaded successfu2025-12-11 10:21:04 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:04 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:04 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:21:04 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:21:04 - src.utils.logger - INFO - Clicked element: 2025-12-11 10:21:12 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:18 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu2025-12-11 10:21:19 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:24 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:24 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:22025-12-11 10:21:33 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:39 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='trade-header-option-open-button']")2025-12-11 10:21:43 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:49 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:49 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:49 - src.utils.logger - INFO - Clicked element: ('link text', 'Markets')
+2025-12-11 10:21:49 - src.utils.logger - INFO - Clicked Markets navigation link
+2025-12-11 10:21:50 - src.utils.logger - INFO - ✓ Markets link navigation test passed - 2025-12-11 10:21:54 - src.utils.logger - INFO - N2025-12-11 10:22:05 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:22:11 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:22:11 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:22:11 - src.utils.logger - INFO - ✓ Page title test passed - Title: MultiBank.io - Home
+logger - INFO - Clicked About navigation link
+2025-12-11 10:22:05 - src.utils.logger - INFO - Clicked element: ('xpath', "//div[contains(text(),'Awards')]")
+2025-12-11 10:22:05 - src.utils.logger - INFO - Clicked Awards option navigation link
+2025-12-11 10:22:05 - src.utils.logger - INFO - ✓ About link navigation test passed - URL: https://multibank.io/about/awards?_gl=1*9jdg8g*_ga*NTAzMzg2MDYzLjE3NjU0Mjg3MTc.*_ga_LVYZTL386K*czE3NjU0Mjg3MTckbzEkZzAkdDE3NjU0Mjg3MTckajYwJGwwJGgw

@@ -1,0 +1,25 @@
+2025-12-11 07:41:47 - src.utils.logger - INFO - ================================================================================
+2025-12-11 07:41:47 - src.utils.logger - INFO - Test Session Started: 2025-12-11 07:41:47
+2025-12-11 07:41:47 - src.utils.logger - INFO - ================================================================================
+2025-12-11 07:41:47 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 07:41:55 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 07:41:57 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 07:41:57 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 07:41:57 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 07:42:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 07:42:03 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 07:42:03 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 07:42:03 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 07:42:08 - src.utils.logger - INFO - [FAILED] Test: test_navigation_items_exist
+2025-12-11 07:42:08 - src.utils.logger - INFO - Error: tests\test_navigation.py:40: in test_navigation_items_exist
+    home_page.verify_navigation_items_exist()
+src\pages\home_page.py:45: in verify_navigation_items_exist
+    self.verify_element_present(item)
+src\pages\base_page.py:223: in verify_element_present
+    assert self.is_element_present(locator), \
+E   AssertionError: Element not present: ('link text', 'Trade')
+2025-12-11 07:42:09 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 07:42:11 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 07:42:11 - src.utils.logger - INFO - ================================================================================
+2025-12-11 07:42:11 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 07:42:11
+2025-12-11 07:42:11 - src.utils.logger - INFO - ================================================================================

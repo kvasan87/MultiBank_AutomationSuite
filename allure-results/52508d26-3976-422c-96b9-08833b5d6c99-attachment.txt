@@ -1,0 +1,117 @@
+2025-12-11 10:20:44,475 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:44,475 - conftest - INFO - Starting test: test_app_store_link_clickable
+2025-12-11 10:20:44,475 - conftest - INFO - ======================================================================
+2025-12-11 10:20:44,475 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:44,476 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:44,476 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:44,476 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:20:44,476 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:48,766 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:49,578 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:50,289 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:51,896 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:51,898 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:59,184 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:59,184 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:59,299 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:59,632 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:21:00,015 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 10:21:00,015 - src.utils.logger - INFO - Clicked App Store link
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Keerthi\AppData\Local\Python\pythoncore-3.14-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Keerthi\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 52: character maps to <undefined>
+Call stack:
+  File "<string>", line 1, in <module>
+    import sys;exec(eval(sys.stdin.readline()))
+  File "<string>", line 8, in <module>
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\execnet\gateway_base.py", line 1806, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\execnet\gateway_base.py", line 1273, in serve
+    self._execpool.integrate_as_primary_thread()
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\execnet\gateway_base.py", line 389, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\execnet\gateway_base.py", line 411, in _perform_spawn
+    reply.run()
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\execnet\gateway_base.py", line 341, in run
+    self._result = func(*args, **kwargs)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\execnet\gateway_base.py", line 1291, in executetask
+    exec(co, loc)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\xdist\remote.py", line 355, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\xdist\remote.py", line 157, in pytest_runtestloop
+    self.run_one_test()
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\xdist\remote.py", line 174, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 114, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\KV_Files\Automation_Framework\VirtualEnv\MVenv\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\KV_Files\Automation_Framework\Task1_TestAutoomationSuite\tests\test_content_validation.py", line 88, in test_app_store_link_clickable
+    log_info("✓ App Store link clickable test passed")
+  File "C:\KV_Files\Automation_Framework\Task1_TestAutoomationSuite\src\utils\logger.py", line 92, in log_info
+    logger.info(safe_message)
+Message: '✓ App Store link clickable test passed'
+Arguments: ()
+2025-12-11 10:21:00,015 - src.utils.logger - INFO - ✓ App Store link clickable test passed
+2025-12-11 10:21:00,021 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:02,331 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:02,333 - conftest - INFO - Finished test: test_app_store_link_clickable
+2025-12-11 10:21:02,333 - conftest - INFO - ======================================================================
+

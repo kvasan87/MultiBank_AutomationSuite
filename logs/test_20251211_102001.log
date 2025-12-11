@@ -1,0 +1,291 @@
+2025-12-11 10:20:01,607 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:01,607 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:01,608 - conftest - INFO - Starting test: test_marketing_banners_visible
+2025-12-11 10:20:01,608 - conftest - INFO - ======================================================================
+2025-12-11 10:20:01,608 - conftest - INFO - ======================================================================
+2025-12-11 10:20:01,608 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:01,608 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:01,608 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:01,609 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:01,609 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:01,609 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:01,610 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:20:01,610 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:20:01,610 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:01,610 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:05,600 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:05,680 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:06,366 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:06,442 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:07,135 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:07,149 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:08,469 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:08,474 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:08,477 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:08,481 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:14,402 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:14,403 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:14,467 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:15,751 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:15,751 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:15,776 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 10:20:16,138 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 10:20:16,139 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 10:20:16,218 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 10:20:16,235 - conftest - INFO - Closing chrome browser
+2025-12-11 10:20:16,449 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:16,506 - src.utils.logger - INFO - Element presence verified: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 10:20:16,507 - src.utils.logger - INFO - App Store link exists
+2025-12-11 10:20:16,522 - conftest - INFO - Closing chrome browser
+2025-12-11 10:20:18,935 - conftest - INFO - Chrome driver closed
+2025-12-11 10:20:18,936 - conftest - INFO - Finished test: test_marketing_banners_visible
+2025-12-11 10:20:18,937 - conftest - INFO - ======================================================================
+
+2025-12-11 10:20:19,074 - conftest - INFO - Chrome driver closed
+2025-12-11 10:20:19,075 - conftest - INFO - Finished test: test_app_store_link_exists
+2025-12-11 10:20:19,075 - conftest - INFO - ======================================================================
+
+2025-12-11 10:20:22,999 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:23,000 - conftest - INFO - Starting test: test_download_section_visible
+2025-12-11 10:20:23,000 - conftest - INFO - ======================================================================
+2025-12-11 10:20:23,000 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:23,000 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:23,000 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:23,000 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:20:23,000 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:23,127 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:23,127 - conftest - INFO - Starting test: test_google_play_link_exists
+2025-12-11 10:20:23,127 - conftest - INFO - ======================================================================
+2025-12-11 10:20:23,127 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:23,127 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:23,127 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:23,127 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:20:23,128 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:27,401 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:27,532 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:28,093 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:28,214 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:28,773 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:28,917 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:30,276 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:30,279 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:30,414 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:30,417 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:35,955 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:35,956 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:36,021 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:37,266 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:37,267 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:37,348 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:37,765 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:37,801 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:37,803 - src.utils.logger - INFO - Element presence verified: ('xpath', "//a[contains(@href,'play.google')]")
+2025-12-11 10:20:37,803 - src.utils.logger - INFO - Google Play link exists
+2025-12-11 10:20:37,808 - conftest - INFO - Closing chrome browser
+2025-12-11 10:20:37,810 - conftest - INFO - Closing chrome browser
+2025-12-11 10:20:40,282 - conftest - INFO - Chrome driver closed
+2025-12-11 10:20:40,283 - conftest - INFO - Finished test: test_google_play_link_exists
+2025-12-11 10:20:40,283 - conftest - INFO - ======================================================================
+
+2025-12-11 10:20:40,421 - conftest - INFO - Chrome driver closed
+2025-12-11 10:20:40,423 - conftest - INFO - Finished test: test_download_section_visible
+2025-12-11 10:20:40,423 - conftest - INFO - ======================================================================
+
+2025-12-11 10:20:44,340 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:44,341 - conftest - INFO - Starting test: test_google_play_link_clickable
+2025-12-11 10:20:44,341 - conftest - INFO - ======================================================================
+2025-12-11 10:20:44,341 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:44,341 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:44,341 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:44,341 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:20:44,341 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:44,475 - conftest - INFO - 
+======================================================================
+2025-12-11 10:20:44,475 - conftest - INFO - Starting test: test_app_store_link_clickable
+2025-12-11 10:20:44,475 - conftest - INFO - ======================================================================
+2025-12-11 10:20:44,475 - conftest - INFO - Starting chrome browser
+2025-12-11 10:20:44,476 - conftest - INFO - Headless mode: False
+2025-12-11 10:20:44,476 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:20:44,476 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:20:44,476 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:20:48,699 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:48,766 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:49,532 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:49,578 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:20:50,232 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:50,289 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:20:51,631 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:51,633 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:51,896 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:20:51,898 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:20:59,184 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:20:59,184 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:20:59,299 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:20:59,632 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:21:00,015 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 10:21:00,015 - src.utils.logger - INFO - Clicked App Store link
+2025-12-11 10:21:00,021 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:02,331 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:02,333 - conftest - INFO - Finished test: test_app_store_link_clickable
+2025-12-11 10:21:02,333 - conftest - INFO - ======================================================================
+
+2025-12-11 10:21:04,065 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:04,066 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:04,107 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:21:04,383 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:21:04,674 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'play.google')]")
+2025-12-11 10:21:04,674 - src.utils.logger - INFO - Clicked Google Play link
+2025-12-11 10:21:04,681 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:06,383 - conftest - INFO - 
+======================================================================
+2025-12-11 10:21:06,384 - conftest - INFO - Starting test: test_navigation_menu_visible
+2025-12-11 10:21:06,384 - conftest - INFO - ======================================================================
+2025-12-11 10:21:06,384 - conftest - INFO - Starting chrome browser
+2025-12-11 10:21:06,384 - conftest - INFO - Headless mode: False
+2025-12-11 10:21:06,384 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:21:06,384 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:21:06,384 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:21:07,068 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:07,070 - conftest - INFO - Finished test: test_google_play_link_clickable
+2025-12-11 10:21:07,071 - conftest - INFO - ======================================================================
+
+2025-12-11 10:21:10,320 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:10,879 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:11,129 - conftest - INFO - 
+======================================================================
+2025-12-11 10:21:11,129 - conftest - INFO - Starting test: test_why_multilink_page_renders
+2025-12-11 10:21:11,130 - conftest - INFO - ======================================================================
+2025-12-11 10:21:11,130 - conftest - INFO - Starting chrome browser
+2025-12-11 10:21:11,130 - conftest - INFO - Headless mode: False
+2025-12-11 10:21:11,130 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:21:11,130 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:21:11,130 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:21:11,507 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:21:12,869 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:21:12,870 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:16,473 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:17,402 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:18,265 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:21:18,612 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:18,613 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:18,686 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:18,693 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:19,937 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:21:19,939 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:21,333 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:21,336 - conftest - INFO - Finished test: test_navigation_menu_visible
+2025-12-11 10:21:21,336 - conftest - INFO - ======================================================================
+
+2025-12-11 10:21:24,590 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:24,590 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:24,786 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 10:21:24,786 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 10:21:25,356 - conftest - INFO - 
+======================================================================
+2025-12-11 10:21:25,357 - conftest - INFO - Starting test: test_navigation_items_exist
+2025-12-11 10:21:25,357 - conftest - INFO - ======================================================================
+2025-12-11 10:21:25,357 - conftest - INFO - Starting chrome browser
+2025-12-11 10:21:25,358 - conftest - INFO - Headless mode: False
+2025-12-11 10:21:25,358 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:21:25,358 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:21:25,358 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:21:28,250 - src.utils.logger - INFO - Clicked element: ('xpath', "//div[contains(text(),'Multibank?')]")
+2025-12-11 10:21:28,250 - src.utils.logger - INFO - Clicked Awards option navigation link
+2025-12-11 10:21:28,489 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:30,750 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:30,860 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:30,861 - conftest - INFO - Finished test: test_why_multilink_page_renders
+2025-12-11 10:21:30,861 - conftest - INFO - ======================================================================
+
+2025-12-11 10:21:31,316 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:31,876 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:21:33,158 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:21:33,159 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:34,918 - conftest - INFO - 
+======================================================================
+2025-12-11 10:21:34,918 - conftest - INFO - Starting test: test_markets_link_navigation
+2025-12-11 10:21:34,918 - conftest - INFO - ======================================================================
+2025-12-11 10:21:34,919 - conftest - INFO - Starting chrome browser
+2025-12-11 10:21:34,919 - conftest - INFO - Headless mode: False
+2025-12-11 10:21:34,919 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:21:34,919 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:21:34,919 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:21:39,496 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:39,497 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:39,542 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 10:21:39,571 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 10:21:39,596 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='trade-header-option-open-button']")
+2025-12-11 10:21:39,618 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='features-header-option-open-button']")
+2025-12-11 10:21:39,636 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 10:21:39,654 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='support-header-option-open-button']")
+2025-12-11 10:21:39,655 - src.utils.logger - INFO - All navigation items verified
+2025-12-11 10:21:39,659 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:40,617 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:41,304 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:41,883 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:21:41,956 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:41,958 - conftest - INFO - Finished test: test_navigation_items_exist
+2025-12-11 10:21:41,959 - conftest - INFO - ======================================================================
+
+2025-12-11 10:21:43,160 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:21:43,162 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:46,024 - conftest - INFO - 
+======================================================================
+2025-12-11 10:21:46,024 - conftest - INFO - Starting test: test_about_link_navigation
+2025-12-11 10:21:46,025 - conftest - INFO - ======================================================================
+2025-12-11 10:21:46,025 - conftest - INFO - Starting chrome browser
+2025-12-11 10:21:46,025 - conftest - INFO - Headless mode: False
+2025-12-11 10:21:46,025 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:21:46,025 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:21:46,025 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:21:49,130 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:49,130 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:49,436 - src.utils.logger - INFO - Clicked element: ('link text', 'Markets')
+2025-12-11 10:21:49,436 - src.utils.logger - INFO - Clicked Markets navigation link
+2025-12-11 10:21:50,071 - conftest - INFO - Closing chrome browser
+2025-12-11 10:21:51,523 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:52,155 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:21:52,498 - conftest - INFO - Chrome driver closed
+2025-12-11 10:21:52,499 - conftest - INFO - Finished test: test_markets_link_navigation
+2025-12-11 10:21:52,499 - conftest - INFO - ======================================================================
+
+2025-12-11 10:21:52,737 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:21:54,116 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:21:54,118 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:56,530 - conftest - INFO - 
+======================================================================
+2025-12-11 10:21:56,531 - conftest - INFO - Starting test: test_page_title
+2025-12-11 10:21:56,531 - conftest - INFO - ======================================================================
+2025-12-11 10:21:56,532 - conftest - INFO - Starting chrome browser
+2025-12-11 10:21:56,532 - conftest - INFO - Headless mode: False
+2025-12-11 10:21:56,532 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:21:56,532 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:21:56,532 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:21:58,775 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:58,775 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:22:00,542 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 10:22:00,542 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 10:22:02,176 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:22:03,099 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:22:03,979 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:22:05,447 - src.utils.logger - INFO - Clicked element: ('xpath', "//div[contains(text(),'Awards')]")
+2025-12-11 10:22:05,448 - src.utils.logger - INFO - Clicked Awards option navigation link
+2025-12-11 10:22:05,451 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:22:05,455 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:22:05,821 - conftest - INFO - Closing chrome browser
+2025-12-11 10:22:08,215 - conftest - INFO - Chrome driver closed
+2025-12-11 10:22:08,217 - conftest - INFO - Finished test: test_about_link_navigation
+2025-12-11 10:22:08,217 - conftest - INFO - ======================================================================
+
+2025-12-11 10:22:11,139 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:22:11,139 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:22:11,182 - conftest - INFO - Closing chrome browser
+2025-12-11 10:22:13,597 - conftest - INFO - Chrome driver closed
+2025-12-11 10:22:13,598 - conftest - INFO - Finished test: test_page_title
+2025-12-11 10:22:13,599 - conftest - INFO - ======================================================================
+

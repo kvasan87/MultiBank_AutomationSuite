@@ -1,0 +1,32 @@
+[32mINFO    [0m conftest:conftest.py:193 
+======================================================================
+[32mINFO    [0m conftest:conftest.py:194 Starting test: test_marketing_banners_visible
+[32mINFO    [0m conftest:conftest.py:195 ======================================================================
+[32mINFO    [0m conftest:conftest.py:111 Starting chrome browser
+[32mINFO    [0m conftest:conftest.py:112 Headless mode: False
+[32mINFO    [0m conftest:conftest.py:113 Slow mode: 0.0s
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw0
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 143.0.7499.42 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42]
+[32mINFO    [0m conftest:conftest.py:169 Chrome driver initialized successfully
+[32mINFO    [0m src.utils.logger:logger.py:92 Navigating to URL: https://trade.multibank.io/
+[32mINFO    [0m src.utils.logger:logger.py:92 Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+[32mINFO    [0m src.utils.logger:logger.py:92 Home page loaded successfully
+[32mINFO    [0m src.utils.logger:logger.py:92 Scrolled to bottom of page
+[32mINFO    [0m src.utils.logger:logger.py:92 Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+[32mINFO    [0m src.utils.logger:logger.py:92 Marketing banners are visible at bottom
+[32mINFO    [0m src.utils.logger:logger.py:92 Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+[32mINFO    [0m src.utils.logger:logger.py:92 ✓ Marketing banners test passed - Found 1 banners
+[32mINFO    [0m conftest:conftest.py:174 Closing chrome browser
+[32mINFO    [0m conftest:conftest.py:176 Chrome driver closed
+[32mINFO    [0m conftest:conftest.py:199 Finished test: test_marketing_banners_visible
+[32mINFO    [0m conftest:conftest.py:200 ======================================================================

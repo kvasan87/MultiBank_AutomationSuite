@@ -1,0 +1,19 @@
+2025-12-11 07:45:53 - src.utils.logger - INFO - ================================================================================
+2025-12-11 07:45:53 - src.utils.logger - INFO - Test Session Started: 2025-12-11 07:45:53
+2025-12-11 07:45:53 - src.utils.logger - INFO - ================================================================================
+2025-12-11 07:45:53 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 07:46:01 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 07:46:02 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 07:46:02 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 07:46:02 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 07:46:08 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 07:46:08 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 07:46:10 - src.utils.logger - INFO - Clicked element: ('link text', 'Markets')
+2025-12-11 07:46:10 - src.utils.logger - INFO - Clicked Markets navigation link
+2025-12-11 07:46:11 - src.utils.logger - INFO - ✓ Markets link navigation test passed - Navigated to https://trade.multibank.io/markets
+2025-12-11 07:46:11 - src.utils.logger - INFO - [PASSED] Test: test_markets_link_navigation
+2025-12-11 07:46:11 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 07:46:13 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 07:46:13 - src.utils.logger - INFO - ================================================================================
+2025-12-11 07:46:13 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 07:46:13
+2025-12-11 07:46:13 - src.utils.logger - INFO - ================================================================================

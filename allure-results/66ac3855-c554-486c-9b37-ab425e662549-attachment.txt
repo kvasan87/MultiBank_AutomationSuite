@@ -1,0 +1,27 @@
+2025-12-11 10:17:49,159 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,160 - conftest - INFO - Starting test: test_google_play_link_clickable
+2025-12-11 10:17:49,161 - conftest - INFO - ======================================================================
+2025-12-11 10:17:49,161 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,162 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,162 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,163 - WDM - INFO - xdist worker is: gw5
+2025-12-11 10:17:49,163 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:18:00,954 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,557 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,268 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:04,269 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:07,764 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:07,780 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,781 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:09,621 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:10,238 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:12,174 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw5\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:16,700 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:16,705 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:19:03,701 - conftest - ERROR - Screenshot saved: screenshots\failure_test_google_play_link_clickable_20251211_101903.png
+2025-12-11 10:19:03,705 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:14,976 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:14,977 - conftest - INFO - Finished test: test_google_play_link_clickable
+2025-12-11 10:19:14,977 - conftest - INFO - ======================================================================
+

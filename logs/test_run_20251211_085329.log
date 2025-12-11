@@ -1,0 +1,21 @@
+2025-12-11 08:53:29 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:53:29 - src.utils.logger - INFO - Test Session Started: 2025-12-11 08:53:29
+2025-12-11 08:53:29 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:53:29 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 08:53:36 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 08:53:37 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 08:53:37 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 08:53:37 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 08:53:44 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 08:53:44 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 08:53:44 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 08:53:45 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 08:53:45 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 08:53:45 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 08:53:45 - src.utils.logger - INFO - ✓ Marketing banners test passed - Found 1 banners
+2025-12-11 08:53:45 - src.utils.logger - INFO - [PASSED] Test: test_marketing_banners_visible
+2025-12-11 08:53:45 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 08:53:47 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 08:53:47 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:53:47 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 08:53:47
+2025-12-11 08:53:47 - src.utils.logger - INFO - ================================================================================

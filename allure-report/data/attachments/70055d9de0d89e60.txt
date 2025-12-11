@@ -1,0 +1,8 @@
+2025-12-11 10:18:44 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:19:07 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:19:07 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:19:07 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 10:19:08 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 10:19:08 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 10:19:08 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 10:19:08 - src.utils.logger - INFO - ✓ Marketing banners test passed - Found 1 banners

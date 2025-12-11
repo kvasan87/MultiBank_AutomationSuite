@@ -1,0 +1,141 @@
+2025-12-11 01:02:37 - src.utils.logger - INFO - ================================================================================
+2025-12-11 01:02:37 - src.utils.logger - INFO - Test Session Started: 2025-12-11 01:02:37
+2025-12-11 01:02:37 - src.utils.logger - INFO - ================================================================================
+2025-12-11 01:02:37 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 01:02:43 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 01:02:44 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 01:02:44 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 01:02:44 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 01:02:50 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:02:50 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 01:02:50 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:02:50 - src.utils.logger - INFO - ✓ Navigation menu visibility test passed
+2025-12-11 01:02:50 - src.utils.logger - INFO - [PASSED] Test: test_navigation_menu_visible
+2025-12-11 01:02:50 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 01:02:53 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 01:02:57 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 01:03:02 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 01:03:03 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 01:03:03 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 01:03:04 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 01:03:09 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:03:09 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 01:03:09 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 01:03:09 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 01:03:15 - src.utils.logger - INFO - [FAILED] Test: test_navigation_items_exist
+2025-12-11 01:03:15 - src.utils.logger - INFO - Error: tests\test_navigation.py:40: in test_navigation_items_exist
+    home_page.verify_navigation_items_exist()
+src\pages\home_page.py:45: in verify_navigation_items_exist
+    self.verify_element_present(item)
+src\pages\base_page.py:223: in verify_element_present
+    assert self.is_element_present(locator), \
+E   AssertionError: Element not present: ('link text', 'Trade')
+2025-12-11 01:03:15 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 01:03:17 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 01:03:17 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 01:03:23 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 01:03:24 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 01:03:24 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 01:03:24 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 01:03:30 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:03:30 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 01:03:40 - src.utils.logger - ERROR - Element not clickable within 10s: ('link text', 'Trade')
+2025-12-11 01:03:40 - src.utils.logger - ERROR - Failed to click element ('link text', 'Trade'): Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbf0d13
+	0xbf0d54
+	0x9de6dd
+	0xa293a5
+	0xa2977b
+	0xa70382
+	0xa4b534
+	0xa6db13
+	0xa4b2e6
+	0xa1d321
+	0xa1e1d4
+	0xe44d54
+	0xe4030b
+	0xe5cbea
+	0xc0ac18
+	0xc12c1d
+	0xbf9018
+	0xbf91d9
+	0xbe3568
+	0x75aa5d49
+	0x779cd5db
+	0x779cd561
+
+2025-12-11 01:03:40 - src.utils.logger - INFO - [FAILED] Test: test_trading_link_navigation
+2025-12-11 01:03:40 - src.utils.logger - INFO - Error: tests\test_navigation.py:53: in test_trading_link_navigation
+    home_page.click_trading_link()
+src\pages\home_page.py:52: in click_trading_link
+    self.click_element(HomePageLocators.NAV_TRADING_LINK)
+src\pages\base_page.py:38: in click_element
+    element = self.wait.wait_for_element_clickable(locator)
+src\utils\wait_helpers.py:40: in wait_for_element_clickable
+    ).until(
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\wait.py:101: in until
+    raise TimeoutException(message, screen, stacktrace)
+E   selenium.common.exceptions.TimeoutException: Message: 
+E   Stacktrace:
+E   Symbols not available. Dumping unresolved backtrace:
+E   	0xbf0d13
+E   	0xbf0d54
+E   	0x9de6dd
+E   	0xa293a5
+E   	0xa2977b
+E   	0xa70382
+E   	0xa4b534
+E   	0xa6db13
+E   	0xa4b2e6
+E   	0xa1d321
+E   	0xa1e1d4
+E   	0xe44d54
+E   	0xe4030b
+E   	0xe5cbea
+E   	0xc0ac18
+E   	0xc12c1d
+E   	0xbf9018
+E   	0xbf91d9
+E   	0xbe3568
+E   	0x75aa5d49
+E   	0x779cd5db
+E   	0x779cd561
+2025-12-11 01:03:40 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 01:03:42 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 01:03:42 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 01:03:48 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 01:03:49 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 01:03:49 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 01:03:49 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 01:03:56 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:03:56 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 01:03:56 - src.utils.logger - INFO - ✓ Page title test passed - Title: MultiBank.io - Home
+2025-12-11 01:03:56 - src.utils.logger - INFO - [PASSED] Test: test_page_title
+2025-12-11 01:03:56 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 01:03:59 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 01:04:03 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 01:04:08 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 01:04:10 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 01:04:10 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 01:04:10 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 01:04:16 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:04:16 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 01:04:16 - src.utils.logger - INFO - [FAILED] Test: test_page_layout_responsive
+2025-12-11 01:04:16 - src.utils.logger - INFO - Error: tests\test_navigation.py:94: in test_page_layout_responsive
+    assert home_page.is_element_visible(
+src\pages\base_page.py:91: in is_element_visible
+    return self.wait.element_is_displayed(locator, timeout)
+src\utils\wait_helpers.py:174: in element_is_displayed
+    WebDriverWait(self.driver, timeout).until(
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\wait.py:92: in until
+    value = method(self._driver)
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py:150: in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+E   TypeError: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not NoneType
+2025-12-11 01:04:16 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 01:04:18 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 01:04:18 - src.utils.logger - INFO - ================================================================================
+2025-12-11 01:04:18 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 01:04:18
+2025-12-11 01:04:18 - src.utils.logger - INFO - ================================================================================

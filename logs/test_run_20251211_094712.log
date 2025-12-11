@@ -1,0 +1,77 @@
+2025-12-11 09:47:12 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:47:29 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:47:29 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:47:29 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 09:47:29 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 09:47:29 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 09:47:29 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 09:47:29 - src.utils.logger - INFO - ✓ Marketing banners test passed - Found 1 banners
+2025-12-11 09:47:43 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:48:23 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:48:37 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:48:37 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:48:37 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:48:38 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:48:38 - src.utils.logger - INFO - Element presence verified: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 09:48:38 - src.utils.logger - INFO - App Store link exists
+2025-12-11 09:48:38 - src.utils.logger - INFO - ✓ App Store link existence test passed
+2025-12-11 09:48:52 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:49:31 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:49:36 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:49:36 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:49:36 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:37 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:38 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 09:49:38 - src.utils.logger - INFO - Clicked App Store link
+2025-12-11 09:49:38 - src.utils.logger - INFO - ✓ App Store link clickable test passed
+2025-12-11 09:49:51 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:49:57 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:49:57 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:49:57 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:58 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:59 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'play.google')]")
+2025-12-11 09:49:59 - src.utils.logger - INFO - Clicked Google Play link
+2025-12-11 09:49:59 - src.utils.logger - INFO - ✓ Google Play link clickable test passed
+2025-12-11 09:50:13 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:50:18 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:50:18 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:50:28 - src.utils.logger - ERROR - Element not clickable within 10s: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 09:50:28 - src.utils.logger - ERROR - Failed to click element ('xpath', "//*[@id='about-header-option-open-button']"): Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-12-11 09:50:38 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:50:43 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:50:43 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:50:43 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:50:43 - src.utils.logger - INFO - ✓ Navigation menu visibility test passed
+2025-12-11 09:50:57 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:51:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:51:03 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:51:03 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 09:51:03 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 09:51:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='trade-header-option-open-button']")
+2025-12-11 09:51:23 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:51:29 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:51:29 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:51:29 - src.utils.logger - INFO - Clicked element: ('link text', 'Markets')
+2025-12-11 09:51:29 - src.utils.logger - INFO - Clicked Markets navigation link
+2025-12-11 09:51:29 - src.utils.logger - INFO - ✓ Markets link navigation test passed - Navigated to https://trade.multibank.io/markets
+2025-12-11 09:51:43 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:51:48 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:51:48 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:51:58 - src.utils.logger - ERROR - Element not clickable within 10s: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 09:51:58 - src.utils.logger - ERROR - Failed to click element ('xpath', "//*[@id='about-header-option-open-button']"): Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-12-11 09:52:08 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:52:13 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:52:13 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:52:13 - src.utils.logger - INFO - ✓ Page title test passed - Title: MultiBank.io - Home

@@ -1,0 +1,44 @@
+2025-12-10 21:58:56 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:58:56 - src.utils.logger - INFO - Test Session Started: 2025-12-10 21:58:56
+2025-12-10 21:58:56 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:58:56 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 21:59:00 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 21:59:02 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 21:59:02 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 21:59:02 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 21:59:14 - src.utils.logger - INFO - [FAILED] Test: test_navigation_menu_visible
+2025-12-10 21:59:14 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x0000023FB29B6710>
+driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="c68ba2e4ace7e71a155d6e9e75bc3987")>
+
+    @pytest.mark.smoke
+    @allure.title("Verify navigation menu displays correctly")
+    @allure.description("Verify that the top navigation menu is visible and displays all expected options")
+    def test_navigation_menu_visible(self, driver):
+        """Test that navigation menu is visible"""
+        home_page = HomePage(driver)
+>       home_page.load()
+
+tests\test_navigation.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\pages\home_page.py:19: in load
+    self.verify_page_loaded()
+src\pages\home_page.py:23: in verify_page_loaded
+    self.verify_element_present(HomePageLocators.NAV_MENU)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <src.pages.home_page.HomePage object at 0x0000023FB29D6510>
+locator = ('xpath', "//nav[@class='main-navigation']")
+
+    @allure.step("Verify element is present")
+    def verify_element_present(self, locator):
+        """Verify element is present"""
+>       assert self.is_element_present(locator), \
+            f"Element not present: {locator}"
+E       AssertionError: Element not present: ('xpath', "//nav[@class='main-navigation']")
+
+src\pages\base_page.py:223: AssertionError
+2025-12-10 21:59:14 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 21:59:16 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 21:59:16 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:59:16 - src.utils.logger - INFO - Test Session Completed: 2025-12-10 21:59:16
+2025-12-10 21:59:16 - src.utils.logger - INFO - ================================================================================

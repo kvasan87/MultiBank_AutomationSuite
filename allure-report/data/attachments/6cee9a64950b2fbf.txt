@@ -1,0 +1,11 @@
+2025-12-11 10:21:33 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:39 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='trade-header-option-open-button']")
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='features-header-option-open-button']")
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 10:21:39 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='support-header-option-open-button']")
+2025-12-11 10:21:39 - src.utils.logger - INFO - All navigation items verified
+2025-12-11 10:21:39 - src.utils.logger - INFO - ✓ Navigation items existence test passed

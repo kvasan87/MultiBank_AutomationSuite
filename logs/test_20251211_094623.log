@@ -1,0 +1,30 @@
+2025-12-11 09:46:24,141 - conftest - INFO - 
+======================================================================
+2025-12-11 09:46:24,142 - conftest - INFO - Starting test: test_marketing_banners_visible
+2025-12-11 09:46:24,142 - conftest - INFO - ======================================================================
+2025-12-11 09:46:24,143 - conftest - INFO - Starting firefox browser
+2025-12-11 09:46:24,143 - conftest - INFO - Headless mode: False
+2025-12-11 09:46:24,143 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:46:30,412 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:46:30,414 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:46:36,211 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:46:36,212 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:46:36,229 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 09:46:36,258 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 09:46:36,259 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 09:46:36,269 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 09:46:36,282 - conftest - INFO - Closing firefox browser
+2025-12-11 09:46:40,520 - conftest - INFO - Firefox driver closed
+2025-12-11 09:46:40,521 - conftest - INFO - Finished test: test_marketing_banners_visible
+2025-12-11 09:46:40,521 - conftest - INFO - ======================================================================
+
+2025-12-11 09:46:44,588 - conftest - INFO - 
+======================================================================
+2025-12-11 09:46:44,589 - conftest - INFO - Starting test: test_download_section_visible
+2025-12-11 09:46:44,589 - conftest - INFO - ======================================================================
+2025-12-11 09:46:44,589 - conftest - INFO - Starting firefox browser
+2025-12-11 09:46:44,589 - conftest - INFO - Headless mode: False
+2025-12-11 09:46:44,589 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:46:45,099 - conftest - INFO - Finished test: test_download_section_visible
+2025-12-11 09:46:45,156 - conftest - INFO - ======================================================================
+

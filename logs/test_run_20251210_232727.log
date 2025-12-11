@@ -1,0 +1,345 @@
+2025-12-10 23:27:27 - src.utils.logger - INFO - ================================================================================
+2025-12-10 23:27:27 - src.utils.logger - INFO - Test Session Started: 2025-12-10 23:27:27
+2025-12-10 23:27:27 - src.utils.logger - INFO - ================================================================================
+2025-12-10 23:27:27 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:27:32 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:27:33 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:27:33 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:27:33 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:27:38 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:27:38 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:27:38 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:27:38 - src.utils.logger - INFO - ✓ Navigation menu visibility test passed
+2025-12-10 23:27:38 - src.utils.logger - INFO - [PASSED] Test: test_navigation_menu_visible
+2025-12-10 23:27:38 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:27:40 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:27:45 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:27:49 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:27:50 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:27:50 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:27:50 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:28:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:28:03 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:28:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='trade-header-option-open-button']")
+2025-12-10 23:28:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-10 23:28:03 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='support-header-option-open-button']")
+2025-12-10 23:28:08 - src.utils.logger - INFO - [FAILED] Test: test_navigation_items_exist
+2025-12-10 23:28:08 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x000001B6C17FD950>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="309a9347695d4e65a59283a870804568")>
+
+    @pytest.mark.smoke
+    @allure.title("Verify all navigation items exist")
+    @allure.description("Verify that all expected navigation items are present in the menu")
+    def test_navigation_items_exist(self, driver):
+        """Test that all navigation items exist"""
+        home_page = HomePage(driver)
+        home_page.load()
+    
+        with allure.step("Verify all navigation items exist"):
+>           home_page.verify_navigation_items_exist()
+
+tests\test_navigation.py:37: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\pages\home_page.py:43: in verify_navigation_items_exist
+    self.verify_element_present(item)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <src.pages.home_page.HomePage object at 0x000001B6C17FE850>, locator = ('xpath', "//a[contains(text(), 'Download')]")
+
+    @allure.step("Verify element is present")
+    def verify_element_present(self, locator):
+        """Verify element is present"""
+>       assert self.is_element_present(locator), \
+            f"Element not present: {locator}"
+E       AssertionError: Element not present: ('xpath', "//a[contains(text(), 'Download')]")
+
+src\pages\base_page.py:223: AssertionError
+2025-12-10 23:28:08 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:28:11 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:28:11 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:28:15 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:28:16 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:28:16 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:28:16 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:28:20 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:28:20 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:28:21 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='trade-header-option-open-button']")
+2025-12-10 23:28:21 - src.utils.logger - INFO - Clicked Trading navigation link
+2025-12-10 23:28:23 - src.utils.logger - INFO - [FAILED] Test: test_trading_link_navigation
+2025-12-10 23:28:23 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x000001B6C1814E90>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="6829d435fcec37fd72ca96174ec4b31e")>
+
+    @pytest.mark.regression
+    @allure.title("Test Trading link navigation")
+    @allure.description("Verify that clicking Trading link navigates to correct page")
+    def test_trading_link_navigation(self, driver):
+        """Test Trading link navigation"""
+        home_page = HomePage(driver)
+        home_page.load()
+    
+        initial_url = home_page.get_page_url()
+        home_page.click_trading_link()
+    
+        # Wait for navigation
+        import time
+        time.sleep(2)
+    
+        new_url = home_page.get_page_url()
+>       assert initial_url != new_url, "URL should change after clicking Trading link"
+E       AssertionError: URL should change after clicking Trading link
+E       assert 'https://trade.multibank.io/' != 'https://trade.multibank.io/'
+
+tests\test_navigation.py:57: AssertionError
+2025-12-10 23:28:23 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:28:26 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:28:26 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:28:30 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:28:31 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:28:31 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:28:31 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:28:41 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:28:41 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:28:41 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-10 23:28:41 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-10 23:28:43 - src.utils.logger - INFO - [FAILED] Test: test_about_link_navigation
+2025-12-10 23:28:43 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x000001B6C18150F0>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="679c3f03935d2780c3cfd3ddad8201a0")>
+
+    @pytest.mark.regression
+    @allure.title("Test About link navigation")
+    @allure.description("Verify that clicking About link navigates to correct page")
+    def test_about_link_navigation(self, driver):
+        """Test About link navigation"""
+        home_page = HomePage(driver)
+        home_page.load()
+    
+        home_page.click_about_link()
+    
+        import time
+        time.sleep(2)
+    
+        current_url = home_page.get_page_url()
+>       assert "about" in current_url.lower(), "Should navigate to about page"
+E       AssertionError: Should navigate to about page
+E       assert 'about' in 'https://trade.multibank.io/'
+E        +  where 'https://trade.multibank.io/' = <built-in method lower of str object at 0x000001B6C1871570>()
+E        +    where <built-in method lower of str object at 0x000001B6C1871570> = 'https://trade.multibank.io/'.lower
+
+tests\test_navigation.py:75: AssertionError
+2025-12-10 23:28:43 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:28:46 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:28:46 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:28:50 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:28:51 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:28:51 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:28:51 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:29:02 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:29:02 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:29:13 - src.utils.logger - ERROR - Element not clickable within 10s: ('xpath', "//a[contains(text(), 'Download')]")
+2025-12-10 23:29:13 - src.utils.logger - ERROR - Failed to click element ('xpath', "//a[contains(text(), 'Download')]"): Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6c0d23
+	0x6c0d64
+	0x4ae6dd
+	0x4f93a5
+	0x4f977b
+	0x540382
+	0x51b534
+	0x53db13
+	0x51b2e6
+	0x4ed321
+	0x4ee1d4
+	0x914d64
+	0x91031b
+	0x92cbfa
+	0x6dac28
+	0x6e2c2d
+	0x6c9028
+	0x6c91e9
+	0x6b3578
+	0x75aa5d49
+	0x779cd5db
+	0x779cd561
+
+2025-12-10 23:29:17 - src.utils.logger - INFO - [FAILED] Test: test_download_link_navigation
+2025-12-10 23:29:17 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x000001B6C17DDB50>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="e25e9934e574ac609de59a501778fc34")>
+
+    @pytest.mark.regression
+    @allure.title("Test Download link navigation")
+    @allure.description("Verify that clicking Download link navigates to correct page")
+    def test_download_link_navigation(self, driver):
+        """Test Download link navigation"""
+        home_page = HomePage(driver)
+        home_page.load()
+    
+>       home_page.click_download_link()
+
+tests\test_navigation.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\pages\home_page.py:71: in click_download_link
+    self.click_element(HomePageLocators.NAV_DOWNLOAD_LINK)
+src\pages\base_page.py:38: in click_element
+    element = self.wait.wait_for_element_clickable(locator)
+src\utils\wait_helpers.py:40: in wait_for_element_clickable
+    ).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="e25e9934e574ac609de59a501778fc34")>, method = <function element_to_be_clickable.<locals>._predicate at 0x000001B6BE9C5430>, message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x6c0d23
+E       	0x6c0d64
+E       	0x4ae6dd
+E       	0x4f93a5
+E       	0x4f977b
+E       	0x540382
+E       	0x51b534
+E       	0x53db13
+E       	0x51b2e6
+E       	0x4ed321
+E       	0x4ee1d4
+E       	0x914d64
+E       	0x91031b
+E       	0x92cbfa
+E       	0x6dac28
+E       	0x6e2c2d
+E       	0x6c9028
+E       	0x6c91e9
+E       	0x6b3578
+E       	0x75aa5d49
+E       	0x779cd5db
+E       	0x779cd561
+
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+2025-12-10 23:29:17 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:29:19 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:29:19 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:29:23 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:29:24 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:29:24 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:29:24 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:29:28 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:29:28 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:29:29 - src.utils.logger - INFO - ✓ Page title test passed - Title: MultiBank.io - Home
+2025-12-10 23:29:29 - src.utils.logger - INFO - [PASSED] Test: test_page_title
+2025-12-10 23:29:29 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:29:31 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:29:36 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:29:40 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:29:41 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:29:41 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:29:41 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:29:45 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:29:45 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:29:45 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-10 23:29:50 - src.utils.logger - INFO - [FAILED] Test: test_footer_present
+2025-12-10 23:29:50 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x000001B6C1844160>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="6129279970dd26f703168d3d4abd99cc")>
+
+    @pytest.mark.smoke
+    @allure.title("Verify footer exists")
+    @allure.description("Verify that the footer is present at the bottom of the page")
+    def test_footer_present(self, driver):
+        """Test that footer is present"""
+        home_page = HomePage(driver)
+        home_page.load()
+    
+>       home_page.verify_footer_exists()
+
+tests\test_navigation.py:118: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\pages\home_page.py:183: in verify_footer_exists
+    self.verify_element_present(HomePageLocators.FOOTER)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <src.pages.home_page.HomePage object at 0x000001B6C1847240>, locator = ('tag name', 'footer')
+
+    @allure.step("Verify element is present")
+    def verify_element_present(self, locator):
+        """Verify element is present"""
+>       assert self.is_element_present(locator), \
+            f"Element not present: {locator}"
+E       AssertionError: Element not present: ('tag name', 'footer')
+
+src\pages\base_page.py:223: AssertionError
+2025-12-10 23:29:50 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:29:53 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:29:53 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 23:29:57 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 23:29:58 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.40\chromedriver-win32/chromedriver.exe
+2025-12-10 23:29:58 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-10 23:29:59 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 23:30:04 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-10 23:30:04 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-10 23:30:04 - src.utils.logger - INFO - [FAILED] Test: test_page_layout_responsive
+2025-12-10 23:30:04 - src.utils.logger - INFO - Error: self = <tests.test_navigation.TestNavigation object at 0x000001B6C1824650>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="d79c3fce86ccc395baad2339a3dcc9cf")>
+
+    @pytest.mark.regression
+    @allure.title("Verify page layout responsiveness")
+    @allure.description("Verify that page loads correctly with standard viewport size")
+    def test_page_layout_responsive(self, driver):
+        """Test page layout responsiveness"""
+        home_page = HomePage(driver)
+    
+        # Set different viewport sizes
+        viewport_sizes = [(1920, 1080), (1366, 768), (768, 1024)]
+    
+        for width, height in viewport_sizes:
+            with allure.step(f"Verify layout at {width}x{height}"):
+                driver.set_window_size(width, height)
+                home_page.load()
+    
+                # Verify main elements are still visible
+>               assert home_page.is_element_visible(
+                    home_page.wait.driver.find_element(
+                        *home_page.NAV_MENU if hasattr(home_page, 'NAV_MENU') else (None, None)
+                    ).locator if hasattr(home_page, 'NAV_MENU') else None
+                )
+
+tests\test_navigation.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\pages\base_page.py:91: in is_element_visible
+    return self.wait.element_is_displayed(locator, timeout)
+src\utils\wait_helpers.py:174: in element_is_displayed
+    WebDriverWait(self.driver, timeout).until(
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\wait.py:92: in until
+    value = method(self._driver)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="d79c3fce86ccc395baad2339a3dcc9cf")>
+
+    def _predicate(driver: WebDriver):
+        try:
+>           return _element_if_visible(driver.find_element(*locator))
+E           TypeError: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not NoneType
+
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py:150: TypeError
+2025-12-10 23:30:04 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 23:30:07 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-10 23:30:07 - src.utils.logger - INFO - ================================================================================
+2025-12-10 23:30:07 - src.utils.logger - INFO - Test Session Completed: 2025-12-10 23:30:07
+2025-12-10 23:30:07 - src.utils.logger - INFO - ================================================================================

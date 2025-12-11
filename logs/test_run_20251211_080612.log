@@ -1,0 +1,97 @@
+2025-12-11 08:06:12 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:06:12 - src.utils.logger - INFO - Test Session Started: 2025-12-11 08:06:12
+2025-12-11 08:06:12 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:06:12 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 08:06:16 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 08:06:18 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 08:06:18 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 08:06:18 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 08:06:23 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 08:06:23 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 08:06:24 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 08:06:24 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 08:06:24 - src.utils.logger - ERROR - Failed to click element ('xpath', "//div[text()=Awards']"): Message: invalid selector: Unable to locate an element with the xpath expression //div[text()=Awards'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()=Awards']' is not a valid XPath expression.
+  (Session info: chrome=143.0.7499.40); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xae0d13
+	0xae0d54
+	0x8ce6dd
+	0x8d5323
+	0x8d76c1
+	0x8d7758
+	0x918bfe
+	0x91977b
+	0x960382
+	0x93b534
+	0x95db13
+	0x93b2e6
+	0x90d321
+	0x90e1d4
+	0xd34d54
+	0xd3030b
+	0xd4cbea
+	0xafac18
+	0xb02c1d
+	0xae9018
+	0xae91d9
+	0xad3568
+	0x75aa5d49
+	0x779cd5db
+	0x779cd561
+
+2025-12-11 08:06:24 - src.utils.logger - INFO - [FAILED] Test: test_about_link_navigation
+2025-12-11 08:06:24 - src.utils.logger - INFO - Error: tests\test_navigation.py:73: in test_about_link_navigation
+    home_page.click_about_link("Awards")
+src\pages\home_page.py:69: in click_about_link
+    self.click_element(HomePageLocators.NAV_AWARDS)
+src\pages\base_page.py:38: in click_element
+    element = self.wait.wait_for_element_clickable(locator)
+src\utils\wait_helpers.py:40: in wait_for_element_clickable
+    ).until(
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\wait.py:92: in until
+    value = method(self._driver)
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py:355: in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\remote\webdriver.py:741: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\remote\webdriver.py:347: in execute
+    self.error_handler.check_response(response)
+..\VirtualEnv\MVenv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py:229: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //div[text()=Awards'] because of the following error:
+E   SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()=Awards']' is not a valid XPath expression.
+E     (Session info: chrome=143.0.7499.40); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+E   Stacktrace:
+E   Symbols not available. Dumping unresolved backtrace:
+E   	0xae0d13
+E   	0xae0d54
+E   	0x8ce6dd
+E   	0x8d5323
+E   	0x8d76c1
+E   	0x8d7758
+E   	0x918bfe
+E   	0x91977b
+E   	0x960382
+E   	0x93b534
+E   	0x95db13
+E   	0x93b2e6
+E   	0x90d321
+E   	0x90e1d4
+E   	0xd34d54
+E   	0xd3030b
+E   	0xd4cbea
+E   	0xafac18
+E   	0xb02c1d
+E   	0xae9018
+E   	0xae91d9
+E   	0xad3568
+E   	0x75aa5d49
+E   	0x779cd5db
+E   	0x779cd561
+2025-12-11 08:06:24 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 08:06:26 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 08:06:26 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:06:26 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 08:06:26
+2025-12-11 08:06:26 - src.utils.logger - INFO - ================================================================================

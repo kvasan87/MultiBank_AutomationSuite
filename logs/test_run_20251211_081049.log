@@ -1,0 +1,21 @@
+2025-12-11 08:10:49 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:10:49 - src.utils.logger - INFO - Test Session Started: 2025-12-11 08:10:49
+2025-12-11 08:10:49 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:10:49 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 08:10:54 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 08:10:55 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 08:10:55 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 08:10:55 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 08:11:01 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 08:11:01 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 08:11:01 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 08:11:01 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 08:11:05 - src.utils.logger - INFO - Clicked element: ('xpath', "//div[contains(text(),'Awards')]")
+2025-12-11 08:11:05 - src.utils.logger - INFO - Clicked Awards navigation link
+2025-12-11 08:11:05 - src.utils.logger - INFO - ✓ About link navigation test passed - URL: https://multibank.io/about/awards?_gl=1*83duxa*_ga*MTU2NjQ2ODcwOC4xNzY1NDIwODU4*_ga_LVYZTL386K*czE3NjU0MjA4NTckbzEkZzAkdDE3NjU0MjA4NTckajYwJGwwJGgw
+2025-12-11 08:11:05 - src.utils.logger - INFO - [PASSED] Test: test_about_link_navigation
+2025-12-11 08:11:05 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 08:11:08 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 08:11:08 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:11:08 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 08:11:08
+2025-12-11 08:11:08 - src.utils.logger - INFO - ================================================================================

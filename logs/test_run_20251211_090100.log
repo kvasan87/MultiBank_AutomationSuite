@@ -1,0 +1,69 @@
+2025-12-11 09:01:00 - src.utils.logger - INFO - ================================================================================
+2025-12-11 09:01:00 - src.utils.logger - INFO - Test Session Started: 2025-12-11 09:01:00
+2025-12-11 09:01:00 - src.utils.logger - INFO - ================================================================================
+2025-12-11 09:01:00 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 09:01:05 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 09:01:07 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 09:01:07 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 09:01:07 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:01:13 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:01:13 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:01:13 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 09:01:15 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 09:01:15 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 09:01:15 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 09:01:15 - src.utils.logger - INFO - ✓ Marketing banners test passed - Found 1 banners
+2025-12-11 09:01:15 - src.utils.logger - INFO - [PASSED] Test: test_marketing_banners_visible
+2025-12-11 09:01:15 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 09:01:17 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 09:01:21 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 09:01:27 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 09:01:28 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 09:01:28 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 09:01:28 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:01:34 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:01:34 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:01:34 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:01:36 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:01:36 - src.utils.logger - INFO - ✓ Download section visibility test passed
+2025-12-11 09:01:36 - src.utils.logger - INFO - [PASSED] Test: test_download_section_visible
+2025-12-11 09:01:36 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 09:01:38 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 09:01:42 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 09:01:48 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 09:01:50 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 09:01:50 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 09:01:50 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:01:55 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:01:55 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:01:55 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:01:57 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:02:03 - src.utils.logger - INFO - [FAILED] Test: test_app_store_link_exists
+2025-12-11 09:02:03 - src.utils.logger - INFO - Error: tests\test_content_validation.py:53: in test_app_store_link_exists
+    home_page.verify_app_store_link_exists()
+src\pages\home_page.py:157: in verify_app_store_link_exists
+    self.verify_element_present(HomePageLocators.APP_STORE_LINK)
+src\pages\base_page.py:233: in verify_element_present
+    assert self.is_element_present(locator), \
+E   AssertionError: Element not present: ('xpath', "//img[contains(@alt,'apple')]")
+2025-12-11 09:02:03 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 09:02:05 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 09:02:05 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 09:02:11 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 09:02:12 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 09:02:12 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 09:02:12 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:02:18 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:02:18 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:02:18 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:02:20 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:02:20 - src.utils.logger - INFO - Element presence verified: ('xpath', "//img[contains(@alt,'google')]")
+2025-12-11 09:02:20 - src.utils.logger - INFO - Google Play link exists
+2025-12-11 09:02:20 - src.utils.logger - INFO - ✓ Google Play link existence test passed
+2025-12-11 09:02:20 - src.utils.logger - INFO - [PASSED] Test: test_google_play_link_exists
+2025-12-11 09:02:20 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 09:02:22 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 09:02:26 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 09:02:32 - src.utils.logger - INFO - ================================================================================
+2025-12-11 09:02:32 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 09:02:32
+2025-12-11 09:02:32 - src.utils.logger - INFO - ================================================================================

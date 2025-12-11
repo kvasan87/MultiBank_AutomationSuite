@@ -1,0 +1,22 @@
+2025-12-11 10:09:09,481 - conftest - INFO - 
+======================================================================
+2025-12-11 10:09:09,481 - conftest - INFO - Starting test: test_download_section_visible
+2025-12-11 10:09:09,481 - conftest - INFO - ======================================================================
+2025-12-11 10:09:09,482 - conftest - INFO - Starting chrome browser
+2025-12-11 10:09:09,482 - conftest - INFO - Headless mode: False
+2025-12-11 10:09:09,482 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:09:09,482 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:09:12,743 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:09:13,308 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:09:13,850 - WDM - INFO - Driver [C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-11 10:09:15,102 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:09:15,106 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:09:21,180 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:09:21,180 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:09:21,235 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:09:21,492 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 10:09:21,507 - conftest - INFO - Closing chrome browser
+2025-12-11 10:09:23,801 - conftest - INFO - Chrome driver closed
+2025-12-11 10:09:23,803 - conftest - INFO - Finished test: test_download_section_visible
+2025-12-11 10:09:23,803 - conftest - INFO - ======================================================================
+

@@ -1,0 +1,9 @@
+2025-12-10 20:22:57 - src.utils.logger - INFO - Environment Setup - Browser: chrome, Headless: False
+2025-12-10 20:22:57 - src.utils.logger - INFO - ================================================================================
+2025-12-10 20:22:57 - src.utils.logger - INFO - Test Session Started: 2025-12-10 20:22:57
+2025-12-10 20:22:57 - src.utils.logger - INFO - ================================================================================
+2025-12-10 20:22:57 - src.utils.logger - INFO - Creating WebDriver for browser: chrome
+2025-12-10 20:22:57 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 20:28:57 - src.utils.logger - INFO - ================================================================================
+2025-12-10 20:28:57 - src.utils.logger - INFO - Test Session Completed: 2025-12-10 20:28:57
+2025-12-10 20:28:57 - src.utils.logger - INFO - ================================================================================

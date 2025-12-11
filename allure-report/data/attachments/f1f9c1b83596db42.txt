@@ -1,0 +1,26 @@
+[32mINFO    [0m conftest:conftest.py:193 
+======================================================================
+[32mINFO    [0m conftest:conftest.py:194 Starting test: test_download_section_visible
+[32mINFO    [0m conftest:conftest.py:195 ======================================================================
+[32mINFO    [0m conftest:conftest.py:111 Starting chrome browser
+[32mINFO    [0m conftest:conftest.py:112 Headless mode: False
+[32mINFO    [0m conftest:conftest.py:113 Slow mode: 0.0s
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw1
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 143.0.7499.42 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42]
+[32mINFO    [0m conftest:conftest.py:169 Chrome driver initialized successfully
+[32mINFO    [0m src.utils.logger:logger.py:92 Navigating to URL: https://trade.multibank.io/
+[31m[1mERROR   [0m src.utils.logger:logger.py:113 Page did not fully load within 10s
+[32mINFO    [0m conftest:conftest.py:174 Closing chrome browser
+[32mINFO    [0m conftest:conftest.py:176 Chrome driver closed
+[32mINFO    [0m conftest:conftest.py:199 Finished test: test_download_section_visible
+[32mINFO    [0m conftest:conftest.py:200 ======================================================================

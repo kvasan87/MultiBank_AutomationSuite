@@ -1,0 +1,24 @@
+2025-12-11 08:51:59 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:51:59 - src.utils.logger - INFO - Test Session Started: 2025-12-11 08:51:59
+2025-12-11 08:51:59 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:51:59 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 08:52:04 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 08:52:06 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 08:52:06 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 08:52:06 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 08:52:13 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 08:52:13 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 08:52:13 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 08:52:18 - src.utils.logger - INFO - [FAILED] Test: test_marketing_banners_visible
+2025-12-11 08:52:18 - src.utils.logger - INFO - Error: tests\test_content_validation.py:23: in test_marketing_banners_visible
+    home_page.verify_marketing_banners_visible()
+src\pages\home_page.py:136: in verify_marketing_banners_visible
+    self.verify_element_visible(HomePageLocators.MARKETING_BANNER)
+src\pages\base_page.py:226: in verify_element_visible
+    assert self.is_element_visible(locator), \
+E   AssertionError: Element not visible: ('css selector', '.style_image__kiucM')
+2025-12-11 08:52:18 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 08:52:21 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 08:52:21 - src.utils.logger - INFO - ================================================================================
+2025-12-11 08:52:21 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 08:52:21
+2025-12-11 08:52:21 - src.utils.logger - INFO - ================================================================================

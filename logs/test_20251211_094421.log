@@ -1,0 +1,20 @@
+2025-12-11 09:44:21,920 - conftest - INFO - 
+======================================================================
+2025-12-11 09:44:21,922 - conftest - INFO - Starting test: test_marketing_banners_visible
+2025-12-11 09:44:21,922 - conftest - INFO - ======================================================================
+2025-12-11 09:44:21,923 - conftest - INFO - Starting firefox browser
+2025-12-11 09:44:21,923 - conftest - INFO - Headless mode: False
+2025-12-11 09:44:21,923 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:44:27,842 - conftest - INFO - Finished test: test_marketing_banners_visible
+2025-12-11 09:44:27,842 - conftest - INFO - ======================================================================
+
+2025-12-11 09:44:27,848 - conftest - INFO - 
+======================================================================
+2025-12-11 09:44:27,848 - conftest - INFO - Starting test: test_download_section_visible
+2025-12-11 09:44:27,848 - conftest - INFO - ======================================================================
+2025-12-11 09:44:27,848 - conftest - INFO - Starting firefox browser
+2025-12-11 09:44:27,848 - conftest - INFO - Headless mode: False
+2025-12-11 09:44:27,849 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:44:35,499 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:44:35,502 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:44:48,572 - conftest - INFO - Closing firefox browser

@@ -1,0 +1,25 @@
+[32mINFO    [0m conftest:conftest.py:193 
+======================================================================
+[32mINFO    [0m conftest:conftest.py:194 Starting test: test_google_play_link_exists
+[32mINFO    [0m conftest:conftest.py:195 ======================================================================
+[32mINFO    [0m conftest:conftest.py:111 Starting chrome browser
+[32mINFO    [0m conftest:conftest.py:112 Headless mode: False
+[32mINFO    [0m conftest:conftest.py:113 Slow mode: 0.0s
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw1
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:169 Chrome driver initialized successfully
+[32mINFO    [0m src.utils.logger:logger.py:92 Navigating to URL: https://trade.multibank.io/
+[32mINFO    [0m src.utils.logger:logger.py:92 Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+[32mINFO    [0m src.utils.logger:logger.py:92 Home page loaded successfully
+[32mINFO    [0m src.utils.logger:logger.py:92 Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+[32mINFO    [0m src.utils.logger:logger.py:92 Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+[32mINFO    [0m src.utils.logger:logger.py:92 Element presence verified: ('xpath', "//a[contains(@href,'play.google')]")
+[32mINFO    [0m src.utils.logger:logger.py:92 Google Play link exists
+[32mINFO    [0m src.utils.logger:logger.py:92 ✓ Google Play link existence test passed
+[32mINFO    [0m conftest:conftest.py:174 Closing chrome browser
+[32mINFO    [0m conftest:conftest.py:176 Chrome driver closed
+[32mINFO    [0m conftest:conftest.py:199 Finished test: test_google_play_link_exists
+[32mINFO    [0m conftest:conftest.py:200 ======================================================================

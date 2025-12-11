@@ -1,0 +1,10 @@
+2025-12-10 21:42:00 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:42:00 - src.utils.logger - INFO - Test Session Started: 2025-12-10 21:42:00
+2025-12-10 21:42:00 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:42:00 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-10 21:42:07 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-10 21:42:07 - src.utils.logger - INFO - Error creating WebDriver: [WinError 193] %1 is not a valid Win32 application
+2025-12-10 21:42:07 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 21:42:08 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:42:08 - src.utils.logger - INFO - Test Session Completed: 2025-12-10 21:42:08
+2025-12-10 21:42:08 - src.utils.logger - INFO - ================================================================================

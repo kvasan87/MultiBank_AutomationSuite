@@ -1,0 +1,231 @@
+2025-12-11 09:47:06,199 - conftest - INFO - 
+======================================================================
+2025-12-11 09:47:06,199 - conftest - INFO - Starting test: test_marketing_banners_visible
+2025-12-11 09:47:06,200 - conftest - INFO - ======================================================================
+2025-12-11 09:47:06,200 - conftest - INFO - Starting firefox browser
+2025-12-11 09:47:06,200 - conftest - INFO - Headless mode: False
+2025-12-11 09:47:06,200 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:47:12,231 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:47:12,233 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:47:29,637 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:47:29,637 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:47:29,703 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 09:47:29,739 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 09:47:29,739 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 09:47:29,745 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 09:47:29,758 - conftest - INFO - Closing firefox browser
+2025-12-11 09:47:33,848 - conftest - INFO - Firefox driver closed
+2025-12-11 09:47:33,850 - conftest - INFO - Finished test: test_marketing_banners_visible
+2025-12-11 09:47:33,850 - conftest - INFO - ======================================================================
+
+2025-12-11 09:47:37,896 - conftest - INFO - 
+======================================================================
+2025-12-11 09:47:37,896 - conftest - INFO - Starting test: test_download_section_visible
+2025-12-11 09:47:37,897 - conftest - INFO - ======================================================================
+2025-12-11 09:47:37,897 - conftest - INFO - Starting firefox browser
+2025-12-11 09:47:37,897 - conftest - INFO - Headless mode: False
+2025-12-11 09:47:37,897 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:47:43,973 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:47:43,974 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:48:14,327 - conftest - ERROR - Screenshot saved: screenshots\failure_test_download_section_visible_20251211_094814.png
+2025-12-11 09:48:14,328 - conftest - INFO - Closing firefox browser
+2025-12-11 09:48:17,347 - conftest - INFO - Firefox driver closed
+2025-12-11 09:48:17,348 - conftest - INFO - Finished test: test_download_section_visible
+2025-12-11 09:48:17,348 - conftest - INFO - ======================================================================
+
+2025-12-11 09:48:17,354 - conftest - INFO - 
+======================================================================
+2025-12-11 09:48:17,355 - conftest - INFO - Starting test: test_app_store_link_exists
+2025-12-11 09:48:17,355 - conftest - INFO - ======================================================================
+2025-12-11 09:48:17,355 - conftest - INFO - Starting firefox browser
+2025-12-11 09:48:17,355 - conftest - INFO - Headless mode: False
+2025-12-11 09:48:17,355 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:48:23,402 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:48:23,404 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:48:37,909 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:48:37,909 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:48:37,975 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:48:38,010 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:48:38,018 - src.utils.logger - INFO - Element presence verified: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 09:48:38,019 - src.utils.logger - INFO - App Store link exists
+2025-12-11 09:48:38,025 - conftest - INFO - Closing firefox browser
+2025-12-11 09:48:41,962 - conftest - INFO - Firefox driver closed
+2025-12-11 09:48:41,963 - conftest - INFO - Finished test: test_app_store_link_exists
+2025-12-11 09:48:41,963 - conftest - INFO - ======================================================================
+
+2025-12-11 09:48:46,026 - conftest - INFO - 
+======================================================================
+2025-12-11 09:48:46,026 - conftest - INFO - Starting test: test_google_play_link_exists
+2025-12-11 09:48:46,026 - conftest - INFO - ======================================================================
+2025-12-11 09:48:46,026 - conftest - INFO - Starting firefox browser
+2025-12-11 09:48:46,026 - conftest - INFO - Headless mode: False
+2025-12-11 09:48:46,026 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:48:52,202 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:48:52,204 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:49:22,334 - conftest - ERROR - Screenshot saved: screenshots\failure_test_google_play_link_exists_20251211_094922.png
+2025-12-11 09:49:22,335 - conftest - INFO - Closing firefox browser
+2025-12-11 09:49:25,318 - conftest - INFO - Firefox driver closed
+2025-12-11 09:49:25,319 - conftest - INFO - Finished test: test_google_play_link_exists
+2025-12-11 09:49:25,320 - conftest - INFO - ======================================================================
+
+2025-12-11 09:49:25,325 - conftest - INFO - 
+======================================================================
+2025-12-11 09:49:25,325 - conftest - INFO - Starting test: test_app_store_link_clickable
+2025-12-11 09:49:25,325 - conftest - INFO - ======================================================================
+2025-12-11 09:49:25,325 - conftest - INFO - Starting firefox browser
+2025-12-11 09:49:25,326 - conftest - INFO - Headless mode: False
+2025-12-11 09:49:25,326 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:49:31,304 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:49:31,306 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:49:36,966 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:49:36,967 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:49:36,996 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:37,022 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:38,532 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 09:49:38,533 - src.utils.logger - INFO - Clicked App Store link
+2025-12-11 09:49:38,538 - conftest - INFO - Closing firefox browser
+2025-12-11 09:49:41,826 - conftest - INFO - Firefox driver closed
+2025-12-11 09:49:41,827 - conftest - INFO - Finished test: test_app_store_link_clickable
+2025-12-11 09:49:41,828 - conftest - INFO - ======================================================================
+
+2025-12-11 09:49:45,914 - conftest - INFO - 
+======================================================================
+2025-12-11 09:49:45,914 - conftest - INFO - Starting test: test_google_play_link_clickable
+2025-12-11 09:49:45,915 - conftest - INFO - ======================================================================
+2025-12-11 09:49:45,915 - conftest - INFO - Starting firefox browser
+2025-12-11 09:49:45,915 - conftest - INFO - Headless mode: False
+2025-12-11 09:49:45,915 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:49:51,973 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:49:51,974 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:49:57,945 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:49:57,945 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:49:57,967 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:58,009 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:49:59,751 - src.utils.logger - INFO - Clicked element: ('xpath', "//a[contains(@href,'play.google')]")
+2025-12-11 09:49:59,751 - src.utils.logger - INFO - Clicked Google Play link
+2025-12-11 09:49:59,759 - conftest - INFO - Closing firefox browser
+2025-12-11 09:50:03,030 - conftest - INFO - Firefox driver closed
+2025-12-11 09:50:03,031 - conftest - INFO - Finished test: test_google_play_link_clickable
+2025-12-11 09:50:03,031 - conftest - INFO - ======================================================================
+
+2025-12-11 09:50:07,109 - conftest - INFO - 
+======================================================================
+2025-12-11 09:50:07,109 - conftest - INFO - Starting test: test_why_multilink_page_renders
+2025-12-11 09:50:07,109 - conftest - INFO - ======================================================================
+2025-12-11 09:50:07,109 - conftest - INFO - Starting firefox browser
+2025-12-11 09:50:07,110 - conftest - INFO - Headless mode: False
+2025-12-11 09:50:07,110 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:50:13,234 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:50:13,236 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:50:18,390 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:50:18,391 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:50:28,899 - src.utils.logger - ERROR - Element not clickable within 10s: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 09:50:28,899 - src.utils.logger - ERROR - Failed to click element ('xpath', "//*[@id='about-header-option-open-button']"): Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-12-11 09:50:28,998 - conftest - ERROR - Screenshot saved: screenshots\failure_test_why_multilink_page_renders_20251211_095028.png
+2025-12-11 09:50:28,998 - conftest - INFO - Closing firefox browser
+2025-12-11 09:50:32,142 - conftest - INFO - Firefox driver closed
+2025-12-11 09:50:32,143 - conftest - INFO - Finished test: test_why_multilink_page_renders
+2025-12-11 09:50:32,143 - conftest - INFO - ======================================================================
+
+2025-12-11 09:50:32,148 - conftest - INFO - 
+======================================================================
+2025-12-11 09:50:32,149 - conftest - INFO - Starting test: test_navigation_menu_visible
+2025-12-11 09:50:32,149 - conftest - INFO - ======================================================================
+2025-12-11 09:50:32,149 - conftest - INFO - Starting firefox browser
+2025-12-11 09:50:32,149 - conftest - INFO - Headless mode: False
+2025-12-11 09:50:32,149 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:50:38,187 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:50:38,188 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:50:43,723 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:50:43,723 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:50:43,741 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:50:43,747 - conftest - INFO - Closing firefox browser
+2025-12-11 09:50:46,892 - conftest - INFO - Firefox driver closed
+2025-12-11 09:50:46,893 - conftest - INFO - Finished test: test_navigation_menu_visible
+2025-12-11 09:50:46,893 - conftest - INFO - ======================================================================
+
+2025-12-11 09:50:50,958 - conftest - INFO - 
+======================================================================
+2025-12-11 09:50:50,959 - conftest - INFO - Starting test: test_navigation_items_exist
+2025-12-11 09:50:50,959 - conftest - INFO - ======================================================================
+2025-12-11 09:50:50,959 - conftest - INFO - Starting firefox browser
+2025-12-11 09:50:50,959 - conftest - INFO - Headless mode: False
+2025-12-11 09:50:50,959 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:50:57,142 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:50:57,144 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:51:03,343 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:51:03,344 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:51:03,356 - src.utils.logger - INFO - Element presence verified: ('link text', 'Dashboard')
+2025-12-11 09:51:03,371 - src.utils.logger - INFO - Element presence verified: ('link text', 'Markets')
+2025-12-11 09:51:03,376 - src.utils.logger - INFO - Element presence verified: ('xpath', "//*[@id='trade-header-option-open-button']")
+2025-12-11 09:51:14,034 - conftest - ERROR - Screenshot saved: screenshots\failure_test_navigation_items_exist_20251211_095113.png
+2025-12-11 09:51:14,035 - conftest - INFO - Closing firefox browser
+2025-12-11 09:51:17,175 - conftest - INFO - Firefox driver closed
+2025-12-11 09:51:17,176 - conftest - INFO - Finished test: test_navigation_items_exist
+2025-12-11 09:51:17,177 - conftest - INFO - ======================================================================
+
+2025-12-11 09:51:17,183 - conftest - INFO - 
+======================================================================
+2025-12-11 09:51:17,183 - conftest - INFO - Starting test: test_markets_link_navigation
+2025-12-11 09:51:17,184 - conftest - INFO - ======================================================================
+2025-12-11 09:51:17,184 - conftest - INFO - Starting firefox browser
+2025-12-11 09:51:17,184 - conftest - INFO - Headless mode: False
+2025-12-11 09:51:17,184 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:51:23,549 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:51:23,550 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:51:29,211 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:51:29,211 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:51:29,338 - src.utils.logger - INFO - Clicked element: ('link text', 'Markets')
+2025-12-11 09:51:29,339 - src.utils.logger - INFO - Clicked Markets navigation link
+2025-12-11 09:51:29,851 - conftest - INFO - Closing firefox browser
+2025-12-11 09:51:33,047 - conftest - INFO - Firefox driver closed
+2025-12-11 09:51:33,048 - conftest - INFO - Finished test: test_markets_link_navigation
+2025-12-11 09:51:33,048 - conftest - INFO - ======================================================================
+
+2025-12-11 09:51:37,106 - conftest - INFO - 
+======================================================================
+2025-12-11 09:51:37,106 - conftest - INFO - Starting test: test_about_link_navigation
+2025-12-11 09:51:37,106 - conftest - INFO - ======================================================================
+2025-12-11 09:51:37,106 - conftest - INFO - Starting firefox browser
+2025-12-11 09:51:37,106 - conftest - INFO - Headless mode: False
+2025-12-11 09:51:37,107 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:51:43,137 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:51:43,138 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:51:48,408 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:51:48,408 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:51:58,917 - src.utils.logger - ERROR - Element not clickable within 10s: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 09:51:58,917 - src.utils.logger - ERROR - Failed to click element ('xpath', "//*[@id='about-header-option-open-button']"): Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-12-11 09:51:59,017 - conftest - ERROR - Screenshot saved: screenshots\failure_test_about_link_navigation_20251211_095158.png
+2025-12-11 09:51:59,018 - conftest - INFO - Closing firefox browser
+2025-12-11 09:52:02,170 - conftest - INFO - Firefox driver closed
+2025-12-11 09:52:02,171 - conftest - INFO - Finished test: test_about_link_navigation
+2025-12-11 09:52:02,171 - conftest - INFO - ======================================================================
+
+2025-12-11 09:52:02,176 - conftest - INFO - 
+======================================================================
+2025-12-11 09:52:02,177 - conftest - INFO - Starting test: test_page_title
+2025-12-11 09:52:02,177 - conftest - INFO - ======================================================================
+2025-12-11 09:52:02,177 - conftest - INFO - Starting firefox browser
+2025-12-11 09:52:02,177 - conftest - INFO - Headless mode: False
+2025-12-11 09:52:02,177 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 09:52:08,181 - conftest - INFO - Firefox driver initialized successfully
+2025-12-11 09:52:08,183 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:52:13,589 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:52:13,589 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:52:13,596 - conftest - INFO - Closing firefox browser
+2025-12-11 09:52:16,794 - conftest - INFO - Firefox driver closed
+2025-12-11 09:52:16,796 - conftest - INFO - Finished test: test_page_title
+2025-12-11 09:52:16,796 - conftest - INFO - ======================================================================
+

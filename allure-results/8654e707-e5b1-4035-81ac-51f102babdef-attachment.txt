@@ -1,0 +1,27 @@
+2025-12-11 10:17:49,157 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,158 - conftest - INFO - Starting test: test_app_store_link_exists
+2025-12-11 10:17:49,158 - conftest - INFO - ======================================================================
+2025-12-11 10:17:49,159 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,160 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,160 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,161 - WDM - INFO - xdist worker is: gw2
+2025-12-11 10:17:49,161 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:18:00,252 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,029 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:03,575 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:03,576 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:06,882 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:06,893 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:06,893 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:08,652 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:08,954 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:11,436 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw2\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:15,298 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:15,303 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:55,811 - conftest - ERROR - Screenshot saved: screenshots\failure_test_app_store_link_exists_20251211_101847.png
+2025-12-11 10:18:55,815 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:14,995 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:14,997 - conftest - INFO - Finished test: test_app_store_link_exists
+2025-12-11 10:19:14,997 - conftest - INFO - ======================================================================
+

@@ -1,0 +1,12 @@
+2025-12-10 21:10:31 - src.utils.logger - INFO - Environment Setup - Browser: chrome, Headless: False
+2025-12-10 21:10:31 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:10:31 - src.utils.logger - INFO - Test Session Started: 2025-12-10 21:10:31
+2025-12-10 21:10:31 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:10:31 - src.utils.logger - INFO - Creating WebDriver for browser: chrome
+2025-12-10 21:10:37 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-10 21:10:42 - src.utils.logger - DEBUG - Waiting for page load...
+2025-12-10 21:10:42 - src.utils.logger - DEBUG - Page fully loaded
+2025-12-10 21:10:48 - src.utils.logger - INFO - Closing WebDriver
+2025-12-10 21:10:51 - src.utils.logger - INFO - ================================================================================
+2025-12-10 21:10:51 - src.utils.logger - INFO - Test Session Completed: 2025-12-10 21:10:51
+2025-12-10 21:10:51 - src.utils.logger - INFO - ================================================================================

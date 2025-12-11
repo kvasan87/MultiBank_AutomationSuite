@@ -1,0 +1,6 @@
+2025-12-11 10:21:43 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:21:49 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:21:49 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:21:49 - src.utils.logger - INFO - Clicked element: ('link text', 'Markets')
+2025-12-11 10:21:49 - src.utils.logger - INFO - Clicked Markets navigation link
+2025-12-11 10:21:50 - src.utils.logger - INFO - ✓ Markets link navigation test passed - Navigated to https://trade.multibank.io/markets

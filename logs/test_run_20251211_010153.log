@@ -1,0 +1,18 @@
+2025-12-11 01:01:53 - src.utils.logger - INFO - ================================================================================
+2025-12-11 01:01:53 - src.utils.logger - INFO - Test Session Started: 2025-12-11 01:01:53
+2025-12-11 01:01:53 - src.utils.logger - INFO - ================================================================================
+2025-12-11 01:01:53 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 01:02:00 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 01:02:01 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 01:02:01 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 01:02:01 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 01:02:06 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:02:06 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 01:02:06 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 01:02:06 - src.utils.logger - INFO - ✓ Navigation menu visibility test passed
+2025-12-11 01:02:06 - src.utils.logger - INFO - [PASSED] Test: test_navigation_menu_visible
+2025-12-11 01:02:06 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 01:02:09 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 01:02:09 - src.utils.logger - INFO - ================================================================================
+2025-12-11 01:02:09 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 01:02:09
+2025-12-11 01:02:09 - src.utils.logger - INFO - ================================================================================

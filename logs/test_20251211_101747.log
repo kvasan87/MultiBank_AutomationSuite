@@ -1,0 +1,158 @@
+2025-12-11 10:17:49,157 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,157 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,157 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,158 - conftest - INFO - Starting test: test_app_store_link_exists
+2025-12-11 10:17:49,158 - conftest - INFO - Starting test: test_app_store_link_clickable
+2025-12-11 10:17:49,158 - conftest - INFO - ===============================================2025-12-11 10:17:49,158 - conftest - INFO - Starting test: test_download_section_visible
+==========================2025-12-11 10:17:49,159 - conftest - INFO - 
+======================================================================
+2025-12-11 10:17:49,160 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,160 - conftest - INFO - Slow mode: 0.0s
+=====================================================
+2025-12-11 10:17:49,160 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,160 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,160 - conftest - INFO - Starting test: test_google_play_link_exists
+2025-12-11 10:17:49,160 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,160 - conftest - INFO - Starting test: test_google_play_link_clickable
+2025-12-11 10:17:49,160 - conftest - INFO - ======================================================================
+2025-12-11 10:17:49,160 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,160 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,160 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,161 - WDM - INFO - xdist worker is: gw2
+2025-12-11 10:17:49,161 - conftest - INFO - ======================================================================
+2025-12-11 10:17:49,161 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,161 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,161 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,161 - WDM - INFO - xdist worker is: gw4
+2025-12-11 10:17:49,161 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:17:49,161 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,161 - WDM - INFO - xdist worker is: gw0
+2025-12-11 10:17:49,161 - conftest - INFO - Starting chrome browser
+2025-12-11 10:17:49,161 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:17:49,161 - WDM - INFO - xdist worker is: gw1
+2025-12-11 10:17:49,161 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,162 - conftest - INFO - Headless mode: False
+2025-12-11 10:17:49,162 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:17:49,162 - WDM - INFO - xdist worker is: gw3
+2025-12-11 10:17:49,162 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:17:49,162 - conftest - INFO - Slow mode: 0.0s
+2025-12-11 10:17:49,163 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:17:49,163 - WDM - INFO - xdist worker is: gw5
+2025-12-11 10:17:49,163 - WDM - INFO - ====== WebDriver manager ======
+2025-12-11 10:18:00,252 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:00,755 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:00,954 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:01,042 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:01,443 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,029 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,416 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,557 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,774 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:02,882 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:03,263 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:03,575 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:03,576 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,057 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:04,057 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,268 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:04,269 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,484 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:04,484 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,499 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:04,926 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:04,926 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:06,189 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.42" for browser google-chrome "143.0.7499" in cache
+2025-12-11 10:18:06,189 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:06,882 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:06,893 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:06,893 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,514 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:07,526 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,526 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,764 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:07,780 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,781 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,985 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:07,997 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:07,997 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:08,432 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:08,444 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:08,445 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:08,652 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:08,954 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:09,356 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:09,621 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:09,641 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:09,767 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:09,772 - WDM - INFO - WebDriver version 143.0.7499.42 selected
+2025-12-11 10:18:09,783 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:09,783 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.42/win32/chromedriver-win32.zip
+2025-12-11 10:18:10,008 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:10,238 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:10,764 - WDM - INFO - Driver downloading response is 200
+2025-12-11 10:18:11,436 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw2\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:11,881 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw1\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:12,174 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw5\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:12,784 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:13,191 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:13,335 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-11 10:18:14,416 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw3\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:15,298 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:15,303 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:15,392 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:15,396 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:15,832 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw4\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:15,910 - WDM - INFO - Driver has been saved in cache [C:\Users\Keerthi\.wdm\gw0\drivers\chromedriver\win64\143.0.7499.42]
+2025-12-11 10:18:16,700 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:16,705 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:24,057 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:24,065 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:34,666 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:34,671 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:44,952 - conftest - INFO - Chrome driver initialized successfully
+2025-12-11 10:18:44,958 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 10:18:55,811 - conftest - ERROR - Screenshot saved: screenshots\failure_test_app_store_link_exists_20251211_101847.png
+2025-12-11 10:18:55,815 - conftest - INFO - Closing chrome browser
+2025-12-11 10:18:57,363 - conftest - ERROR - Screenshot saved: screenshots\failure_test_google_play_link_exists_20251211_101855.png
+2025-12-11 10:18:57,367 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:01,880 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:01,883 - conftest - INFO - Finished test: test_google_play_link_exists
+2025-12-11 10:19:01,884 - conftest - INFO - ======================================================================
+
+2025-12-11 10:19:03,701 - conftest - ERROR - Screenshot saved: screenshots\failure_test_google_play_link_clickable_20251211_101903.png
+2025-12-11 10:19:03,705 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:06,072 - conftest - ERROR - Screenshot saved: screenshots\failure_test_app_store_link_clickable_20251211_101905.png
+2025-12-11 10:19:06,075 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:06,786 - src.utils.logger - ERROR - Page did not fully load within 10s
+2025-12-11 10:19:07,306 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 10:19:07,308 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 10:19:07,405 - src.utils.logger - INFO - Scrolled to bottom of page
+2025-12-11 10:19:08,147 - src.utils.logger - INFO - Element visibility verified: ('css selector', '.slick-slide.slick-current img.style_image__kiucM')
+2025-12-11 10:19:08,148 - src.utils.logger - INFO - Marketing banners are visible at bottom
+2025-12-11 10:19:08,180 - conftest - ERROR - Screenshot saved: screenshots\failure_test_download_section_visible_20251211_101907.png
+2025-12-11 10:19:08,185 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:08,302 - src.utils.logger - INFO - Element count for ('css selector', '.slick-slide.slick-current img.style_image__kiucM'): 1
+2025-12-11 10:19:08,335 - conftest - INFO - Closing chrome browser
+2025-12-11 10:19:10,677 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:10,679 - conftest - INFO - Finished test: test_app_store_link_clickable
+2025-12-11 10:19:10,680 - conftest - INFO - ======================================================================
+
+2025-12-11 10:19:13,590 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:13,591 - conftest - INFO - Finished test: test_marketing_banners_visible
+2025-12-11 10:19:13,592 - conftest - INFO - ======================================================================
+
+2025-12-11 10:19:14,599 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:14,601 - conftest - INFO - Finished test: test_download_section_visible
+2025-12-11 10:19:14,601 - conftest - INFO - ======================================================================
+
+2025-12-11 10:19:14,976 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:14,977 - conftest - INFO - Finished test: test_google_play_link_clickable
+2025-12-11 10:19:14,977 - conftest - INFO - ======================================================================
+
+2025-12-11 10:19:14,995 - conftest - INFO - Chrome driver closed
+2025-12-11 10:19:14,997 - conftest - INFO - Finished test: test_app_store_link_exists
+2025-12-11 10:19:14,997 - conftest - INFO - ======================================================================
+

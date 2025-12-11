@@ -1,0 +1,10 @@
+2025-12-11 09:45:10 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:45:29 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:45:34 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:45:34 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:45:34 - src.utils.logger - INFO - Scrolled to element: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:45:34 - src.utils.logger - INFO - Element visibility verified: ('xpath', "//div[contains(@class,'style_app-download-container')]")
+2025-12-11 09:45:34 - src.utils.logger - INFO - Element presence verified: ('xpath', "//a[contains(@href,'apps.apple')]")
+2025-12-11 09:45:34 - src.utils.logger - INFO - App Store link exists
+2025-12-11 09:45:34 - src.utils.logger - INFO - ✓ App Store link existence test passed
+2025-12-11 09:45:48 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/

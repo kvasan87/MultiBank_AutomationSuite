@@ -1,0 +1,21 @@
+2025-12-11 09:18:05 - src.utils.logger - INFO - ================================================================================
+2025-12-11 09:18:05 - src.utils.logger - INFO - Test Session Started: 2025-12-11 09:18:05
+2025-12-11 09:18:05 - src.utils.logger - INFO - ================================================================================
+2025-12-11 09:18:05 - src.utils.logger - INFO - Setting up WebDriver...
+2025-12-11 09:18:11 - src.utils.logger - INFO - Creating chrome WebDriver instance (headless=False)
+2025-12-11 09:18:12 - src.utils.logger - INFO - Using ChromeDriver: C:\Users\Keerthi\.wdm\drivers\chromedriver\win64\143.0.7499.42\chromedriver-win32/chromedriver.exe
+2025-12-11 09:18:12 - src.utils.logger - INFO - Chrome WebDriver created successfully
+2025-12-11 09:18:12 - src.utils.logger - INFO - Navigating to URL: https://trade.multibank.io/
+2025-12-11 09:18:20 - src.utils.logger - INFO - Element presence verified: ('xpath', "//div[contains(@class,'style_menu-container')]")
+2025-12-11 09:18:20 - src.utils.logger - INFO - Home page loaded successfully
+2025-12-11 09:18:20 - src.utils.logger - INFO - Clicked element: ('xpath', "//*[@id='about-header-option-open-button']")
+2025-12-11 09:18:20 - src.utils.logger - INFO - Clicked About navigation link
+2025-12-11 09:18:22 - src.utils.logger - INFO - Clicked element: ('xpath', "//div[contains(text(),'Multibank?')]")
+2025-12-11 09:18:22 - src.utils.logger - INFO - Clicked Awards option navigation link
+2025-12-11 09:18:23 - src.utils.logger - INFO - ✓ why-multibank link navigation test passed - URL: https://multibank.io/about/why-multibank?_gl=1*11799zm*_ga*MTI3NzY2NjYyMS4xNzY1NDI0ODk3*_ga_LVYZTL386K*czE3NjU0MjQ4OTYkbzEkZzAkdDE3NjU0MjQ4OTYkajYwJGwwJGgw
+2025-12-11 09:18:23 - src.utils.logger - INFO - [PASSED] Test: test_why_multilink_page_renders
+2025-12-11 09:18:23 - src.utils.logger - INFO - Closing WebDriver
+2025-12-11 09:18:25 - src.utils.logger - INFO - WebDriver closed successfully
+2025-12-11 09:18:25 - src.utils.logger - INFO - ================================================================================
+2025-12-11 09:18:25 - src.utils.logger - INFO - Test Session Completed: 2025-12-11 09:18:25
+2025-12-11 09:18:25 - src.utils.logger - INFO - ================================================================================
