@@ -431,7 +431,3 @@ All tests should:
 8. ✅ Follow POM pattern
 
 ---
-
-**Last Updated:** December 2024
-**Framework Version:** 1.0
-**Test Coverage:** 30+ test cases across 4 suites
