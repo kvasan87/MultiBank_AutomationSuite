@@ -1,8 +1,10 @@
 # MultiBank Trading Platform - Test Automation Framework
 
 ## 📋 Overview
-
+**Task 1: Web UI Automation Framework **
 A production-grade web automation framework for testing the MultiBank trading platform (https://trade.multibank.io/). Built with **Python**, **Selenium**, and **Pytest**, featuring comprehensive test coverage, Allure reporting, and CI/CD integration.
+
+**Task 2 2: String Character Frequency - Please Refer to Task2/CountChar.py**
 
 ## ✨ Key Features
 
